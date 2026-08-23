@@ -1,0 +1,82 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# Virtual Environment
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.bak
+
+# =========================
+# Generated Files
+# =========================
+generated/
+outputs/
